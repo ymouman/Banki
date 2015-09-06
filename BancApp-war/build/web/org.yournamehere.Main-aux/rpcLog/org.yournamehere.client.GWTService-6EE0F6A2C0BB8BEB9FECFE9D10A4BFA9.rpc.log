@@ -1,0 +1,418 @@
+====================================
+Types potentially sent from browser:
+====================================
+
+Reachable types computed on: Tue Dec 14 12:32:46 CET 2010
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String'
+
+java.lang.String[]
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String[]'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+===================================
+Types potentially sent from server:
+===================================
+
+Reachable types computed on: Tue Dec 14 12:32:46 CET 2010
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.LinkedList<E>'
+      'java.util.LinkedList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from type argument 0 of type 'java.util.TreeMap<K, V>'
+      'java.util.TreeMap<E, java.lang.Boolean>' is reachable as a subtype of type 'interface java.util.SortedMap<E, java.lang.Boolean>'
+      'java.util.SortedMap<E, java.lang.Boolean>' is reachable from field 'map' of type 'java.util.TreeSet<E>'
+      'java.util.TreeSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'element' of type 'java.util.Collections.SingletonList<E>'
+      'java.util.Collections.SingletonList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.Vector<E>'
+      'java.util.Vector<java.lang.String>' is reachable as a supertype of type 'class java.util.Stack<java.lang.String>'
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.HashSet<E>'
+      'java.util.HashSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+E[]
+   Serialization status
+      Not serializable
+   Path
+      'E[]' is reachable from field 'array' of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+K
+   Serialization status
+      Not serializable
+   Path
+      'K' is reachable from field 'exposeKeyType' of type 'java.util.TreeMap<K, V>'
+      'java.util.TreeMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+K
+   Serialization status
+      Not serializable
+   Path
+      'K' is reachable from field 'exposeKey' of type 'java.util.IdentityHashMap<K, V>'
+      'java.util.IdentityHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+K
+   Serialization status
+      Not serializable
+   Path
+      'K' is reachable from field 'exposeKey' of type 'java.util.HashMap<K, V>'
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, java.lang.String>'
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+V
+   Serialization status
+      Not serializable
+   Path
+      'V' is reachable from field 'exposeValue' of type 'java.util.HashMap<K, V>'
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, java.lang.String>'
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+V
+   Serialization status
+      Not serializable
+   Path
+      'V' is reachable from field 'exposeValueType' of type 'java.util.TreeMap<K, V>'
+      'java.util.TreeMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+com.extjs.gxt.ui.client.core.FastMap<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'com.extjs.gxt.ui.client.core.FastMap<java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+com.extjs.gxt.ui.client.core.FastSet
+   Serialization status
+      Instantiable
+   Path
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+int
+   Serialization status
+      Not serializable
+   Path
+      'int' is reachable from field 'size' of type 'java.util.TreeMap<K, V>'
+      'java.util.TreeMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.lang.Boolean
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.Boolean'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String'
+
+java.lang.String[]
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.util.ArrayList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Arrays.ArrayList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Collection<java.lang.String>
+   Serialization status
+      Not serializable
+   Path
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Collections.EmptyList
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.EmptyList' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Collections.EmptyMap
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.EmptyMap' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Collections.EmptySet
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.EmptySet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Collections.SingletonList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.SingletonList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Comparator<? super K>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.Comparator<? super K>' is reachable from field 'cmp' of type 'java.util.TreeMap<K, V>'
+      'java.util.TreeMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.HashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, java.lang.String>'
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.HashSet<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.IdentityHashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.LinkedHashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.LinkedHashSet<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.LinkedList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.LinkedList.Node<E>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.LinkedList.Node<E>' is reachable from field 'header' of type 'java.util.LinkedList<E>'
+      'java.util.LinkedList<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Map<java.lang.String, java.lang.String>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.SortedMap<E, java.lang.Boolean>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.SortedMap<E, java.lang.Boolean>' is reachable from field 'map' of type 'java.util.TreeSet<E>'
+      'java.util.TreeSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Stack<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.TreeMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.TreeMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'map' of type 'com.extjs.gxt.ui.client.core.FastSet'
+      'com.extjs.gxt.ui.client.core.FastSet' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.TreeMap<E, java.lang.Boolean>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.TreeMap<E, java.lang.Boolean>' is reachable as a subtype of type 'interface java.util.SortedMap<E, java.lang.Boolean>'
+      'java.util.SortedMap<E, java.lang.Boolean>' is reachable from field 'map' of type 'java.util.TreeSet<E>'
+      'java.util.TreeSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.TreeSet<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.TreeSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
+java.util.Vector<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<java.lang.String>' is reachable as a supertype of type 'class java.util.Stack<java.lang.String>'
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.Collection<java.lang.String>'
+      Started from 'java.util.Collection<java.lang.String>'
+
